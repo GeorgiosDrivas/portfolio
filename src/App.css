@@ -247,3 +247,10 @@ body {
   width: auto;
   height: 40px;
 }
+
+#projects {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

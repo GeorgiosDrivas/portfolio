@@ -2,6 +2,7 @@ import About from "./about";
 import "./App.css";
 import Experience from "./experience";
 import Menu from "./menu";
+import Projects from "./projects/projects";
 import Skills from "./skills/skills";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Experience />
       <Skills />
+      <Projects />
     </>
   );
 }

@@ -9,7 +9,7 @@ export default function Menu() {
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
                 <a href="#skills">Skills</a>
-                <a href="">Projects</a>
+                <a href="#projects">Projects</a>
                 <div className="socials d-flex align-items-end justify-content-end">
                   <a
                     href="https://www.linkedin.com/in/drivasgeorgios/"
