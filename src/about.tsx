@@ -5,12 +5,14 @@ export default function About() {
     <section id="about">
       <ParticlesComponent id="particles" />
       <div className="container h-100">
-        <div className="row h-100">
+        <div className="row mt-3">
           <div className="col-12">
             <div id="avatar">
-              <img src="../public/profileImage.png" alt="" />
+              <img src="/profileImage.png" alt="" />
             </div>
           </div>
+        </div>
+        <div className="row">
           <div className="col-12">
             <div className="about-content">
               <p className="text-start">

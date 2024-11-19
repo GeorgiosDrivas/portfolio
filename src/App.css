@@ -37,11 +37,10 @@ body {
 }
 
 #avatar {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 90px 0;
+  margin: 70px 0;
 }
 
 #avatar img {

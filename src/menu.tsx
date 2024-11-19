@@ -4,12 +4,12 @@ export default function Menu() {
       <section id="menu">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-12">
+            <div className="col-12 p-0">
               <div className="menu">
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
                 <a href="#skills">Skills</a>
-                <a href="">Contact</a>
+                <a href="">Projects</a>
                 <div className="socials d-flex align-items-end justify-content-end">
                   <a
                     href="https://www.linkedin.com/in/drivasgeorgios/"
