@@ -1,8 +1,9 @@
 import SingleProject from "./singleProject";
 
 const codeKeep = ["Angular", "Typescript", "Spring Boot", "PostgreSQL"];
-
 const linkedin = ["React", "Typescript", "MUI", "Vite"];
+const codeEditor = ["React", "Typescript", "Tailwind", "API"];
+const textEditor = ["React", "Typescript", "Bootstrap", "MaterialUI"];
 
 export default function Projects() {
   return (
@@ -27,10 +28,38 @@ export default function Projects() {
               title="Linkedin job-search Clone"
               content="A linkedIn job search clone with Vite, React JS, Material UI."
               githubLink="https://github.com/GeorgiosDrivas/Linkedin-job-search-clone"
-              url="linkedin-job-search-clone.onrender.com/"
+              url="https://linkedin-job-search-clone.onrender.com/"
               image="/linkedin-job-search-clone.png"
               techStack={linkedin}
             />
+            <SingleProject
+              title="Online Code Editor"
+              content="Online code editor using Piston API"
+              githubLink="https://github.com/GeorgiosDrivas/online-code-editor"
+              url="https://online-code-editor-bif2.onrender.com/"
+              image="/editor.png"
+              techStack={codeEditor}
+            />
+            <SingleProject
+              title="Text Editor"
+              content="Text editor using Vite ReactJS Bootstrap 5 and MaterialUI"
+              githubLink="https://github.com/GeorgiosDrivas/text-editor"
+              url="https://text-editor-3g9r.onrender.com/"
+              image="/textEditor.png"
+              techStack={textEditor}
+            />
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div className="mb-5 more-projects-btn text-center">
+                <a
+                  href="https://github.com/GeorgiosDrivas?tab=repositories"
+                  target="_blank"
+                >
+                  More projects
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
