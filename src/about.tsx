@@ -15,7 +15,7 @@ export default function About() {
         <div className="row">
           <div className="col-12">
             <div className="about-content">
-              <p className="text-start">
+              <p>
                 Hi 👋, my name is Georgios Drivas.
                 <br /> A highly skilled Frontend Developer.
                 <br /> With extensive expertise in Responsive design.

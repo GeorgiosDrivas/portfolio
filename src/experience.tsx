@@ -11,10 +11,10 @@ export default function Experience() {
             </div>
           </div>
           <div className="row align-items-center">
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <ExperienceSvg />
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <div className="experience-wrap d-flex flex-column justify-content-around align-items-center">
                 <div className="company-wrap">
                   <h3>Junior Frontend Developer</h3>
