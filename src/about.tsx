@@ -5,7 +5,7 @@ export default function About() {
     <section id="about">
       <ParticlesComponent id="particles" />
       <div className="container h-100">
-        <div className="row mt-3">
+        <div className="row mt-5">
           <div className="col-12">
             <div id="avatar">
               <img src="/profileImage.png" alt="" />
