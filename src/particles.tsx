@@ -143,7 +143,7 @@ const ParticlesComponent = (props: any) => {
       }}
     >
       {/* Use the customInit function */}
-      <Particles id={props.id} init={customInit} options={options} />
+      <Particles id={props.id} particlesLoaded={customInit} options={options} />
     </div>
   );
 };
