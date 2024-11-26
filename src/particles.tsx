@@ -1,12 +1,32 @@
-import { useCallback, useMemo } from "react";
-import Particles from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+import { useEffect, useMemo, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { type Container } from "@tsparticles/engine";
+// import { loadAll } from "@tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
+// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+// import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
-const ParticlesComponent = (props: any) => {
-  // Initialize the tsParticles engine
-  const customInit = useCallback(async (engine: any) => {
-    await loadSlim(engine); // Loads the slim version of tsParticles
+export default function ParticlesComponent({ id }: { id: string }) {
+  const [init, setInit] = useState(false);
+
+  // this should be run only once per application lifetime
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+      // starting from v2 you can add only the features you need reducing the bundle size
+      //await loadAll(engine);
+      //await loadFull(engine);
+      await loadSlim(engine);
+      //await loadBasic(engine);
+    }).then(() => {
+      setInit(true);
+    });
   }, []);
+
+  const particlesLoaded = async (container?: Container): Promise<void> => {
+    console.log(container);
+  };
 
   const options: any = useMemo(
     () => ({
@@ -131,21 +151,26 @@ const ParticlesComponent = (props: any) => {
     []
   );
 
-  return (
-    <div
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%",
-        zIndex: -1,
-      }}
-    >
-      {/* Use the customInit function */}
-      <Particles id={props.id} particlesLoaded={customInit} options={options} />
-    </div>
-  );
-};
+  if (init) {
+    return (
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1,
+        }}
+      >
+        <Particles
+          id={id}
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
+      </div>
+    );
+  }
 
-export default ParticlesComponent;
+  return <></>;
+}
