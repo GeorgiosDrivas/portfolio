@@ -359,20 +359,18 @@ h2 {
   height: 27px;
 }
 
-@media only screen and (max-width: 1390px) {
-  .about-content p {
-    font-size: 20px;
-  }
+.about-content p {
+  font-size: 20px;
+}
 
-  .about-content p span:first-child {
-    font-size: 25px;
-  }
+.about-content p span:first-child {
+  font-size: 25px;
+}
 
-  .about-content p #name,
-  .about-content p #desc {
-    font-size: 40px;
-    font-weight: 1000;
-  }
+.about-content p #name,
+.about-content p #desc {
+  font-size: 40px;
+  font-weight: 1000;
 }
 
 @media only screen and (max-width: 640px) {
