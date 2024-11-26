@@ -318,7 +318,8 @@ body {
   border-radius: 20px;
   color: rgb(0 123 255 / 1);
   font-weight: bold;
-  background-color: rgb(0 123 255 / 0.2);
+  background-color: transparent;
+  border: 1px solid;
 }
 
 .project-details .content {
@@ -328,6 +329,16 @@ body {
 .socials .gmail {
   width: 25px;
   height: 27px;
+}
+
+@media only screen and (max-width: 1390px) {
+  #avatar {
+    height: 400px;
+  }
+
+  .about-content p {
+    font-size: 27px;
+  }
 }
 
 @media only screen and (max-width: 640px) {

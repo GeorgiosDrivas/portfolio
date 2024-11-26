@@ -7,7 +7,7 @@ export default function Skills() {
         <div className="container">
           <div className="row mb-5">
             <div className="col-12">
-              <h2 className="text-center">My skills</h2>
+              <h2 className="text-center">Skills</h2>
             </div>
           </div>
           <div className="row">
