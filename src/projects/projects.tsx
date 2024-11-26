@@ -51,7 +51,7 @@ export default function Projects() {
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="mb-5 more-projects-btn text-center">
+              <div className="mt-4 mb-5 more-projects-btn text-center">
                 <a
                   href="https://github.com/GeorgiosDrivas?tab=repositories"
                   target="_blank"
