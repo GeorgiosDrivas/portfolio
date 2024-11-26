@@ -377,7 +377,7 @@ h2 {
 
 @media only screen and (max-width: 640px) {
   #avatar {
-    height: 600px;
+    height: 300px;
   }
 
   .about-content {
@@ -406,10 +406,6 @@ h2 {
 
   .experience-wrap {
     margin-top: 50px;
-  }
-
-  #avatar {
-    height: 460px;
   }
 
   .about-content {
