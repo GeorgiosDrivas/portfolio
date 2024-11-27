@@ -24,11 +24,19 @@ body {
 }
 
 .light .project-details {
-  color: #ffffff;
+  color: #000000;
 }
 
 .light #avatar img {
   background-color: #000000;
+}
+
+.light .project-image {
+  border-bottom: 1px solid;
+}
+
+.light .single-project {
+  background-color: #fff;
 }
 
 h2 {
