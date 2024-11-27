@@ -373,6 +373,25 @@ h2 {
   font-weight: 1000;
 }
 
+@media only screen and (min-width: 1900px) {
+  #about {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .menu-links {
+    display: none;
+  }
+
+  .menu {
+    justify-content: end;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   #avatar {
     height: 300px;
@@ -387,14 +406,6 @@ h2 {
   #skills {
     margin-top: 150px;
     padding-top: 50px;
-  }
-
-  .menu-links {
-    display: none;
-  }
-
-  .menu {
-    justify-content: end;
   }
 }
 
