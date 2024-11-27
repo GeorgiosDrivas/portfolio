@@ -208,6 +208,9 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                   {/* <button onClick={() => setDarkMode((prv: boolean) => !prv)}>
                     Click
                   </button> */}
+                  {/* <div id="mode-wrap">
+                    <div id="dot"></div>
+                  </div> */}
                 </div>
               </div>
             </div>

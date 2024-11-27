@@ -9,6 +9,24 @@ body {
   font-style: normal;
 }
 
+#mode-wrap {
+  background-color: #ffffff;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+#dot {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background-color: #000000;
+  width: 20px;
+  height: 88%;
+  border-radius: 20px;
+}
+
 .light {
   background-color: #ffffff;
   color: #000000;
