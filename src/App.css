@@ -9,6 +9,19 @@ body {
   font-style: normal;
 }
 
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light .singleSkill {
+  color: #ffffff;
+}
+
+.light .project-details {
+  color: #ffffff;
+}
+
 h2 {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;

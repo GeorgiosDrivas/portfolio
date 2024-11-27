@@ -1,3 +1,4 @@
+import { useState } from "react";
 import About from "./about";
 import "./App.css";
 import Experience from "./experience";
@@ -6,13 +7,17 @@ import Projects from "./projects/projects";
 import Skills from "./skills/skills";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
+
   return (
     <>
-      <Menu />
-      <About />
-      <Experience />
-      <Skills />
-      <Projects />
+      <div id="main" className={darkMode ? "dark" : "light"}>
+        <Menu setDarkMode={setDarkMode} />
+        <About />
+        <Experience />
+        <Skills />
+        <Projects />
+      </div>
     </>
   );
 }
