@@ -25,6 +25,12 @@ body {
   width: 20px;
   height: 88%;
   border-radius: 20px;
+  transition: all 0.3s;
+}
+
+#dot.active {
+  left: unset;
+  right: 1px;
 }
 
 .light {
@@ -38,6 +44,10 @@ body {
 
 .light .project-details {
   color: #ffffff;
+}
+
+.light #avatar img {
+  background-color: #000000;
 }
 
 h2 {
