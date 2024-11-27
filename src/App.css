@@ -9,6 +9,11 @@ body {
   font-style: normal;
 }
 
+#main {
+  position: relative;
+  z-index: 0;
+}
+
 .light {
   background-color: #ffffff;
   color: #000000;
@@ -64,7 +69,7 @@ h2 {
   right: 0;
   padding: 0;
   margin: 0;
-  z-index: 0;
+  z-index: 1;
 }
 
 #avatar {

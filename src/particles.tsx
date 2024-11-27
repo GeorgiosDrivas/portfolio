@@ -1,38 +1,29 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { type Container } from "@tsparticles/engine";
-// import { loadAll } from "@tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
-// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-// import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
+import { loadSlim } from "@tsparticles/slim";
 
-export default function ParticlesComponent({ id }: { id: string }) {
+export default function ParticlesComponent({
+  id,
+  darkMode,
+}: {
+  id: string;
+  darkMode: boolean;
+}) {
   const [init, setInit] = useState(false);
 
-  // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
-      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-      // starting from v2 you can add only the features you need reducing the bundle size
-      //await loadAll(engine);
-      //await loadFull(engine);
       await loadSlim(engine);
-      //await loadBasic(engine);
     }).then(() => {
       setInit(true);
     });
   }, []);
 
-  const particlesLoaded = async (container?: Container): Promise<void> => {
-    console.log(container);
-  };
-
   const options: any = useMemo(
     () => ({
       background: {
         color: {
-          value: "#000000",
+          value: darkMode ? "#000000" : "#ffffff",
         },
       },
       fullScreen: {
@@ -87,13 +78,13 @@ export default function ParticlesComponent({ id }: { id: string }) {
           },
         },
         color: {
-          value: "#fff",
+          value: darkMode ? "#ffffff" : "#000000",
         },
         shape: {
           type: "circle",
           stroke: {
             width: 0,
-            color: "#000000",
+            color: darkMode ? "#ffffff" : "#000000",
           },
           polygon: {
             nb_sides: 5,
@@ -127,7 +118,7 @@ export default function ParticlesComponent({ id }: { id: string }) {
         line_linked: {
           enable: false,
           distance: 150,
-          color: "#ffffff",
+          color: "#000000",
           opacity: 0.4,
           width: 1,
         },
@@ -148,7 +139,7 @@ export default function ParticlesComponent({ id }: { id: string }) {
       },
       detectRetina: true,
     }),
-    []
+    [darkMode]
   );
 
   if (init) {
@@ -164,8 +155,8 @@ export default function ParticlesComponent({ id }: { id: string }) {
         }}
       >
         <Particles
+          key={darkMode ? "dark" : "light"}
           id={id}
-          particlesLoaded={particlesLoaded}
           options={options}
         />
       </div>

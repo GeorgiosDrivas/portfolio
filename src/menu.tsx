@@ -29,9 +29,9 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                       width="800px"
                       height="800px"
                       viewBox="7.086 -169.483 1277.149 1277.149"
-                      shape-rendering="geometricPrecision"
-                      text-rendering="geometricPrecision"
-                      image-rendering="optimizeQuality"
+                      shapeRendering="geometricPrecision"
+                      textRendering="geometricPrecision"
+                      imageRendering="optimizeQuality"
                     >
                       <path
                         fill="none"
@@ -50,8 +50,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#a)"
@@ -82,8 +82,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#b)"
@@ -98,8 +98,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#c)"
@@ -114,8 +114,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#d)"
@@ -130,8 +130,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#e)"
@@ -146,8 +146,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#f)"
@@ -162,8 +162,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#g)"
@@ -178,8 +178,8 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                         y2="737.107"
                         gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                       >
-                        <stop offset="0" stop-color="#f8f6ef" />
-                        <stop offset="1" stop-color="#e7e4d6" />
+                        <stop offset="0" stopColor="#f8f6ef" />
+                        <stop offset="1" stopColor="#e7e4d6" />
                       </linearGradient>
                       <path
                         fill="url(#h)"
@@ -224,69 +224,69 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                           viewBox="0 0 30 30"
                           fill="none"
                         >
-                          <g clip-path="url(#clip0_1722_6736)">
+                          <g clipPath="url(#clip0_1722_6736)">
                             <path
                               d="M15 21.25C18.4518 21.25 21.25 18.4518 21.25 15C21.25 11.5482 18.4518 8.75 15 8.75C11.5482 8.75 8.75 11.5482 8.75 15C8.75 18.4518 11.5482 21.25 15 21.25Z"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M15 1.25V3.75"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M15 26.25V28.75"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M5.27344 5.27344L7.04844 7.04844"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M22.9492 22.9531L24.7242 24.7281"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M1.25 15H3.75"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M26.25 15H28.75"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M5.27344 24.7281L7.04844 22.9531"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                             <path
                               d="M22.9492 7.04844L24.7242 5.27344"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             ></path>
                           </g>
                           <defs>
@@ -306,9 +306,9 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                           <path
                             d="M22.0804 13.4495C21.915 15.2392 21.2433 16.9448 20.144 18.3667C19.0446 19.7886 17.563 20.868 15.8726 21.4785C14.1822 22.0891 12.3528 22.2057 10.5986 21.8145C8.84432 21.4234 7.23775 20.5407 5.96685 19.2698C4.69595 17.9989 3.81328 16.3923 3.42212 14.6381C3.03097 12.8838 3.14751 11.0545 3.7581 9.36404C4.3687 7.67361 5.44809 6.19203 6.86999 5.09267C8.29189 3.99331 9.99747 3.32164 11.7872 3.15625C10.7394 4.57382 10.2351 6.32039 10.3662 8.0783C10.4973 9.8362 11.255 11.4887 12.5015 12.7352C13.748 13.9816 15.4004 14.7393 17.1584 14.8704C18.9163 15.0015 20.6628 14.4973 22.0804 13.4495Z"
                             stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           ></path>
                         </svg>
                       )}

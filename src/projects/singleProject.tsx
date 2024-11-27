@@ -27,7 +27,7 @@ export default function SingleProject({
                   stroke="currentColor"
                   fill="currentColor"
                   className="me-3"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 16 16"
                   height="1rem"
                   width="1rem"
@@ -40,7 +40,7 @@ export default function SingleProject({
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 16 16"
                   height="1rem"
                   width="1rem"

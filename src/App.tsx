@@ -13,7 +13,7 @@ function App() {
     <>
       <div id="main" className={darkMode ? "dark" : "light"}>
         <Menu setDarkMode={setDarkMode} />
-        <About />
+        <About darkMode={darkMode} />
         <Experience />
         <Skills />
         <Projects />
