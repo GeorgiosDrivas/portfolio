@@ -407,7 +407,7 @@ h2 {
   font-weight: 1000;
 }
 
-@media only screen and (min-width: 1900px) {
+@media only screen and (min-width: 1700px) {
   #about {
     display: flex;
     min-height: 100vh;
