@@ -9,30 +9,6 @@ body {
   font-style: normal;
 }
 
-#mode-wrap {
-  background-color: #ffffff;
-  width: 50px;
-  height: 20px;
-  position: relative;
-  border-radius: 20px;
-}
-
-#dot {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  background-color: #000000;
-  width: 20px;
-  height: 88%;
-  border-radius: 20px;
-  transition: all 0.3s;
-}
-
-#dot.active {
-  left: unset;
-  right: 1px;
-}
-
 .light {
   background-color: #ffffff;
   color: #000000;
@@ -60,6 +36,10 @@ h2 {
 
 .App {
   text-align: center;
+}
+
+#dot {
+  cursor: pointer;
 }
 
 #about {
@@ -429,7 +409,7 @@ h2 {
   }
 
   .menu {
-    justify-content: end;
+    justify-content: center;
   }
 }
 
