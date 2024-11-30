@@ -8,7 +8,7 @@ export default function About({ darkMode }: { darkMode: boolean }) {
         <div className="row mt-5">
           <div className="col-12 d-flex justify-content-center mt-5">
             <div id="avatar">
-              <img src="/profileImage.png" alt="" />
+              <img src="/profileImage.png" alt="Avatar image" />
             </div>
           </div>
         </div>
