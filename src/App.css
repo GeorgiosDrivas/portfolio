@@ -119,32 +119,8 @@ h2 {
   animation: floatAnimation 3s ease-in-out infinite;
 }
 
-@keyframes floatAnimation {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 .dif-floating {
   animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: matrix(1, 0, 0, 1, 813.094, 431.273) translateY(0);
-  }
-  40% {
-    transform: matrix(1, 0, 0, 1, 813.094, 431.273) translateY(20px);
-  }
-  100% {
-    transform: matrix(1, 0, 0, 1, 813.094, 431.273) translateY(0);
-  }
 }
 
 .vue-floating {
@@ -153,78 +129,6 @@ h2 {
 
 .react-floating {
   animation: react 3s ease-in-out infinite;
-}
-
-@keyframes vue {
-  0% {
-    transform: matrix(
-        1.191577434539795,
-        0,
-        0,
-        1.191577434539795,
-        882.1461791992188,
-        610.129638671875
-      )
-      translateY(0);
-  }
-  60% {
-    transform: matrix(
-        1.191577434539795,
-        0,
-        0,
-        1.191577434539795,
-        882.1461791992188,
-        610.129638671875
-      )
-      translateY(30px);
-  }
-  100% {
-    transform: matrix(
-        1.191577434539795,
-        0,
-        0,
-        1.191577434539795,
-        882.1461791992188,
-        610.129638671875
-      )
-      translateY(0);
-  }
-}
-
-@keyframes react {
-  0% {
-    transform: matrix(
-        -0.9912608861923218,
-        0.13191595673561096,
-        -0.13191595673561096,
-        -0.9912608861923218,
-        467.6633605957031,
-        250.3909912109375
-      )
-      translateY(0);
-  }
-  60% {
-    transform: matrix(
-        -0.9912608861923218,
-        0.13191595673561096,
-        -0.13191595673561096,
-        -0.9912608861923218,
-        467.6633605957031,
-        250.3909912109375
-      )
-      translateY(30px);
-  }
-  100% {
-    transform: matrix(
-        -0.9912608861923218,
-        0.13191595673561096,
-        -0.13191595673561096,
-        -0.9912608861923218,
-        467.6633605957031,
-        250.3909912109375
-      )
-      translateY(0);
-  }
 }
 
 .dot {
@@ -407,81 +311,6 @@ h2 {
   font-weight: 1000;
 }
 
-@media only screen and (min-width: 1700px) {
-  #about {
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media only screen and (max-width: 760px) {
-  .menu-links {
-    display: none;
-  }
-
-  .menu {
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  #avatar {
-    height: 300px;
-    margin-bottom: 40px;
-  }
-
-  .about-content {
-    width: 100%;
-    font-size: 26px;
-  }
-
-  #skills {
-    margin-top: 150px;
-    padding-top: 50px;
-  }
-}
-
-@media only screen and (max-width: 390px) {
-  .company-wrap {
-    margin-bottom: 30px;
-  }
-
-  .experience-wrap {
-    margin-top: 50px;
-  }
-
-  .about-content {
-    font-size: 22px;
-  }
-
-  .about-content p {
-    text-align: center;
-  }
-
-  #projects {
-    margin-top: 200px;
-  }
-
-  #skills {
-    height: auto;
-  }
-
-  .skills-wrap {
-    gap: 1rem;
-  }
-
-  .tech-stack {
-    overflow-x: scroll;
-  }
-
-  .project-links {
-    top: calc(100% - 55%);
-    left: calc(100% - 63%);
-  }
-}
-
 .more-projects-btn a {
   background-color: rgb(15, 15, 15);
   padding: 15px 25px;
@@ -489,4 +318,100 @@ h2 {
   font-weight: 700;
   color: #fff;
   text-decoration: none;
+}
+
+@keyframes vue {
+  0% {
+    transform: matrix(
+        1.191577434539795,
+        0,
+        0,
+        1.191577434539795,
+        882.1461791992188,
+        610.129638671875
+      )
+      translateY(0);
+  }
+  60% {
+    transform: matrix(
+        1.191577434539795,
+        0,
+        0,
+        1.191577434539795,
+        882.1461791992188,
+        610.129638671875
+      )
+      translateY(30px);
+  }
+  100% {
+    transform: matrix(
+        1.191577434539795,
+        0,
+        0,
+        1.191577434539795,
+        882.1461791992188,
+        610.129638671875
+      )
+      translateY(0);
+  }
+}
+
+@keyframes react {
+  0% {
+    transform: matrix(
+        -0.9912608861923218,
+        0.13191595673561096,
+        -0.13191595673561096,
+        -0.9912608861923218,
+        467.6633605957031,
+        250.3909912109375
+      )
+      translateY(0);
+  }
+  60% {
+    transform: matrix(
+        -0.9912608861923218,
+        0.13191595673561096,
+        -0.13191595673561096,
+        -0.9912608861923218,
+        467.6633605957031,
+        250.3909912109375
+      )
+      translateY(30px);
+  }
+  100% {
+    transform: matrix(
+        -0.9912608861923218,
+        0.13191595673561096,
+        -0.13191595673561096,
+        -0.9912608861923218,
+        467.6633605957031,
+        250.3909912109375
+      )
+      translateY(0);
+  }
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: matrix(1, 0, 0, 1, 813.094, 431.273) translateY(0);
+  }
+  40% {
+    transform: matrix(1, 0, 0, 1, 813.094, 431.273) translateY(20px);
+  }
+  100% {
+    transform: matrix(1, 0, 0, 1, 813.094, 431.273) translateY(0);
+  }
 }

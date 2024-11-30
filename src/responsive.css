@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1700px) {
+  #about {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .menu-links {
+    display: none;
+  }
+
+  .menu {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #avatar {
+    height: 300px;
+    margin-bottom: 40px;
+  }
+
+  .about-content {
+    width: 100%;
+    font-size: 26px;
+  }
+
+  #skills {
+    margin-top: 150px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .company-wrap {
+    margin-bottom: 30px;
+  }
+
+  .experience-wrap {
+    margin-top: 50px;
+  }
+
+  .about-content {
+    font-size: 22px;
+  }
+
+  .about-content p {
+    text-align: center;
+  }
+
+  #projects {
+    margin-top: 200px;
+  }
+
+  #skills {
+    height: auto;
+  }
+
+  .skills-wrap {
+    gap: 1rem;
+  }
+
+  .tech-stack {
+    overflow-x: scroll;
+  }
+
+  .project-links {
+    top: calc(100% - 55%);
+    left: calc(100% - 63%);
+  }
+}
