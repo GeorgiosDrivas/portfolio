@@ -26,7 +26,7 @@ export default function Projects() {
             />
             <SingleProject
               title="Linkedin job-search Clone"
-              content="A linkedIn job search clone with Vite, React JS, Material UI."
+              content="A LinkedIn job search clone using Vite, ReactJS, and Material UI."
               githubLink="https://github.com/GeorgiosDrivas/Linkedin-job-search-clone"
               url="https://linkedin-job-search-clone.onrender.com/"
               image="/linkedin-job-search-clone.png"
@@ -34,7 +34,7 @@ export default function Projects() {
             />
             <SingleProject
               title="Online Code Editor"
-              content="Online code editor using Piston API"
+              content="An online code editor using the Piston API to run and test code in multiple languages."
               githubLink="https://github.com/GeorgiosDrivas/online-code-editor"
               url="https://online-code-editor-bif2.onrender.com/"
               image="/editor.png"
@@ -42,7 +42,7 @@ export default function Projects() {
             />
             <SingleProject
               title="Text Editor"
-              content="Text editor using Vite ReactJS Bootstrap 5 and MaterialUI"
+              content="A text editor built with Vite, ReactJS, Bootstrap 5, and Material UI."
               githubLink="https://github.com/GeorgiosDrivas/text-editor"
               url="https://text-editor-3g9r.onrender.com/"
               image="/textEditor.png"
