@@ -4,7 +4,7 @@ interface Props {
   image: string;
   githubLink: string;
   url: string;
-  techStack: any;
+  techStack: string[];
 }
 
 export default function SingleProject({
