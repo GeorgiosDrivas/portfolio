@@ -275,13 +275,14 @@ h2 {
 }
 
 .tech-stack p {
-  margin-right: 15px;
-  padding: 4px 10px;
+  margin-right: 10px;
+  padding: 4px 7px;
   border-radius: 20px;
   color: rgb(0 123 255 / 1);
   font-weight: bold;
   background-color: transparent;
   border: 1px solid;
+  font-size: 12px;
 }
 
 .project-details .content {
