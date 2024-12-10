@@ -390,3 +390,7 @@ h2 {
 .light .accessibility-menu {
   color: #fff;
 }
+
+.accessibility-wrap a {
+  cursor: pointer;
+}
