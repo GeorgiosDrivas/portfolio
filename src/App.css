@@ -386,3 +386,7 @@ h2 {
   font-size: 10px;
   padding: 20px;
 }
+
+.light .accessibility-menu {
+  color: #fff;
+}
