@@ -5,7 +5,6 @@ export default function Menu({
   setMotion,
 }: {
   setDarkMode: any;
-  motion: boolean;
   setMotion: any;
 }) {
   const [active, setActive] = useState(false);

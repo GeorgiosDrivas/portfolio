@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div id="main" className={darkMode ? "dark" : "light"}>
-        <Menu setDarkMode={setDarkMode} motion={motion} setMotion={setMotion} />
+        <Menu setDarkMode={setDarkMode} setMotion={setMotion} />
         <About darkMode={darkMode} particles={motion} />
         <Experience motion={motion} />
         <Skills />
