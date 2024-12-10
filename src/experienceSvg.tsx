@@ -1,4 +1,4 @@
-export default function ExperienceSvg() {
+export default function ExperienceSvg({ motion }: { motion: boolean }) {
   return (
     <>
       <svg
@@ -1850,7 +1850,7 @@ export default function ExperienceSvg() {
             <g
               opacity={1}
               transform="matrix(1,0,0,1,-0.08237457275390625,-0.043243408203125)"
-              className="floating"
+              className={motion ? "floating" : ""}
             >
               <g opacity={1} transform="matrix(1,0,0,1,0,0)">
                 <path
@@ -1892,7 +1892,7 @@ export default function ExperienceSvg() {
             </g>
             <g
               opacity={1}
-              className="floating"
+              className={motion ? "floating" : ""}
               transform="matrix(1,0,0,1,0.47112274169921875,0.3062286376953125)"
             >
               <g opacity={1} transform="matrix(1,0,0,1,0,0)">
@@ -1929,7 +1929,7 @@ export default function ExperienceSvg() {
             <g
               opacity={1}
               transform="matrix(1,0,0,1,-0.208984375,-0.11679840087890625)"
-              className="floating"
+              className={motion ? "floating" : ""}
             >
               <g opacity={1} transform="matrix(1,0,0,1,0,0)">
                 <path
@@ -2202,7 +2202,7 @@ export default function ExperienceSvg() {
             transform="matrix(-0.9912608861923218,0.13191595673561096,-0.13191595673561096,-0.9912608861923218,467.6633605957031,250.3909912109375)"
             opacity={1}
             style={{ display: "block" }}
-            className="react-floating"
+            className={motion ? "react-floating" : ""}
           >
             <g
               opacity={1}
@@ -2249,7 +2249,7 @@ export default function ExperienceSvg() {
             transform="matrix(1,0,0,1,813.0941772460938,431.2734680175781)"
             opacity={1}
             style={{ display: "block" }}
-            className="dif-floating"
+            className={motion ? "dif-floating" : ""}
           >
             <g
               opacity={1}

@@ -1,6 +1,6 @@
 import ExperienceSvg from "./experienceSvg";
 
-export default function Experience() {
+export default function Experience({ motion }: { motion: boolean }) {
   return (
     <>
       <section id="experience">
@@ -12,7 +12,7 @@ export default function Experience() {
           </div>
           <div className="row align-items-center">
             <div className="col-12 col-lg-6">
-              <ExperienceSvg />
+              <ExperienceSvg motion={motion} />
             </div>
             <div className="col-12 col-lg-6">
               <div className="experience-wrap d-flex flex-column justify-content-around align-items-center">

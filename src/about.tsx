@@ -1,9 +1,15 @@
 import ParticlesComponent from "./particles";
 
-export default function About({ darkMode }: { darkMode: boolean }) {
+export default function About({
+  darkMode,
+  particles,
+}: {
+  darkMode: boolean;
+  particles: boolean;
+}) {
   return (
     <section id="about">
-      <ParticlesComponent id="particles" darkMode={darkMode} />
+      {particles && <ParticlesComponent id="particles" darkMode={darkMode} />}
       <div className="container h-100">
         <div className="row mt-5">
           <div className="col-12 d-flex justify-content-center mt-5">

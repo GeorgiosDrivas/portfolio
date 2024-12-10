@@ -123,10 +123,6 @@ h2 {
   animation: float 3s ease-in-out infinite;
 }
 
-.vue-floating {
-  animation: vue 3s ease-in-out infinite;
-}
-
 .react-floating {
   animation: react 3s ease-in-out infinite;
 }
@@ -319,42 +315,6 @@ h2 {
   font-weight: 700;
   color: #fff;
   text-decoration: none;
-}
-
-@keyframes vue {
-  0% {
-    transform: matrix(
-        1.191577434539795,
-        0,
-        0,
-        1.191577434539795,
-        882.1461791992188,
-        610.129638671875
-      )
-      translateY(0);
-  }
-  60% {
-    transform: matrix(
-        1.191577434539795,
-        0,
-        0,
-        1.191577434539795,
-        882.1461791992188,
-        610.129638671875
-      )
-      translateY(30px);
-  }
-  100% {
-    transform: matrix(
-        1.191577434539795,
-        0,
-        0,
-        1.191577434539795,
-        882.1461791992188,
-        610.129638671875
-      )
-      translateY(0);
-  }
 }
 
 @keyframes react {
