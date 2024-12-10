@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function Menu({
   setDarkMode,
-  motion,
   setMotion,
 }: {
   setDarkMode: any;
@@ -262,12 +261,14 @@ export default function Menu({
                     </a>
                     {accessibilityMenu && (
                       <div className="accessibility-menu position-absolute">
-                        <label htmlFor="motion">Disable website motion</label>
-                        <input
-                          type="checkbox"
-                          id="motion"
-                          onClick={(e) => setMotionState(e.target)}
-                        />
+                        <div className="d-flex justify-content-around align-items-center">
+                          <label htmlFor="motion">Disable website motion</label>
+                          <input
+                            type="checkbox"
+                            id="motion"
+                            onClick={(e) => setMotionState(e.target)}
+                          />
+                        </div>
                       </div>
                     )}
                   </div>
