@@ -376,3 +376,13 @@ h2 {
     transform: matrix(1, 0, 0, 1, 813.094, 431.273) translateY(0);
   }
 }
+
+.accessibility-menu {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(15, 15, 15);
+  left: -156px;
+  top: 48px;
+  font-size: 10px;
+  padding: 20px;
+}
