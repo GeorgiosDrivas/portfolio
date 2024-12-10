@@ -1,6 +1,14 @@
 import { useState } from "react";
 
-export default function Menu({ setDarkMode }: { setDarkMode: any }) {
+export default function Menu({
+  setDarkMode,
+  motion,
+  setMotion,
+}: {
+  setDarkMode: any;
+  motion: boolean;
+  setMotion: any;
+}) {
   const [active, setActive] = useState(false);
   const [accessibilityMenu, setAccessibilityMenu] = useState(false);
 
@@ -11,6 +19,14 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
 
   const toggleAccessibilityMenu = () => {
     setAccessibilityMenu((prv: boolean) => !prv);
+  };
+
+  const setMotionState = (ts: any) => {
+    if (ts.checked) {
+      setMotion(false);
+    } else {
+      setMotion(true);
+    }
   };
 
   return (
@@ -247,7 +263,11 @@ export default function Menu({ setDarkMode }: { setDarkMode: any }) {
                     {accessibilityMenu && (
                       <div className="accessibility-menu position-absolute">
                         <label htmlFor="motion">Disable website motion</label>
-                        <input type="checkbox" id="motion" />
+                        <input
+                          type="checkbox"
+                          id="motion"
+                          onClick={(e) => setMotionState(e.target)}
+                        />
                       </div>
                     )}
                   </div> */}
