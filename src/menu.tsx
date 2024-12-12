@@ -8,24 +8,24 @@ export default function Menu({
   setMotion: any;
 }) {
   const [active, setActive] = useState(false);
-  const [accessibilityMenu, setAccessibilityMenu] = useState(false);
+  // const [accessibilityMenu, setAccessibilityMenu] = useState(false);
 
   const handleModeState = () => {
     setActive((prv) => !prv);
     setDarkMode((prv: boolean) => !prv);
   };
 
-  const toggleAccessibilityMenu = () => {
-    setAccessibilityMenu((prv: boolean) => !prv);
-  };
+  // const toggleAccessibilityMenu = () => {
+  //   setAccessibilityMenu((prv: boolean) => !prv);
+  // };
 
-  const setMotionState = (ts: any) => {
-    if (ts.checked) {
-      setMotion(false);
-    } else {
-      setMotion(true);
-    }
-  };
+  // const setMotionState = (ts: any) => {
+  //   if (ts.checked) {
+  //     setMotion(false);
+  //   } else {
+  //     setMotion(true);
+  //   }
+  // };
 
   return (
     <>
