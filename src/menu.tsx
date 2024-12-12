@@ -1,12 +1,6 @@
 import { useState } from "react";
 
-export default function Menu({
-  setDarkMode,
-  setMotion,
-}: {
-  setDarkMode: any;
-  setMotion: any;
-}) {
+export default function Menu({ setDarkMode }: { setDarkMode: any }) {
   const [active, setActive] = useState(false);
   // const [accessibilityMenu, setAccessibilityMenu] = useState(false);
 
