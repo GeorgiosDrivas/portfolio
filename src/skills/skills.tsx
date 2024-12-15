@@ -39,11 +39,11 @@ export default function Skills() {
                   image="/skillsIcons/postgresql.svg"
                   title="PostgreSQL"
                 />
-                <SingleSkill image="/skillsIcons/react.svg" title="React" />
               </div>
             </div>
             <div className="col-12">
               <div className="mt-3 skills-wrap d-flex flex-wrap justify-content-center">
+                <SingleSkill image="/skillsIcons/react.svg" title="React" />
                 <SingleSkill image="/skillsIcons/redux.svg" title="Redux" />
 
                 <SingleSkill
