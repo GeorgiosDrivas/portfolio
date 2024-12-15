@@ -130,8 +130,8 @@ h2 {
 .dot {
   background-color: #cbd5e1;
   border-radius: 40px;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   display: inline-block;
   margin: 0 10px;
 }
@@ -393,4 +393,8 @@ h2 {
 
 .accessibility-wrap a {
   cursor: pointer;
+}
+
+.light .dot {
+  background-color: rgb(15, 15, 15);
 }
