@@ -32,7 +32,7 @@ export default function About({
               <p>
                 With extensive expertise in Web Development, Responsive
                 <br />
-                Design,Support and Maintenance of websites / web apps.
+                Design, Support and Maintenance of websites / web apps.
               </p>
             </div>
           </div>
