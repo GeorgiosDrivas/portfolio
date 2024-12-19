@@ -9,6 +9,10 @@ body {
   font-style: normal;
 }
 
+.blackWhite {
+  filter: grayscale(1);
+}
+
 #main {
   position: relative;
   z-index: 0;

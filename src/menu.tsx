@@ -5,10 +5,14 @@ export default function Menu({
   setDarkMode,
   setMotion,
   motion,
+  blackWhite,
+  setBlackWhite,
 }: {
   setDarkMode: any;
   setMotion: any;
-  motion: any;
+  motion: boolean;
+  blackWhite: boolean;
+  setBlackWhite: any;
 }) {
   const [active, setActive] = useState(false);
   const [accessibilityMenu, setAccessibilityMenu] = useState(false);
@@ -18,11 +22,11 @@ export default function Menu({
     setDarkMode((prv: boolean) => !prv);
   };
 
-  const setMotionState = (ts: any) => {
+  const setState = (ts: any, setFn: any) => {
     if (ts.checked) {
-      setMotion(false);
+      setFn(false);
     } else {
-      setMotion(true);
+      setFn(true);
     }
   };
 
@@ -264,16 +268,33 @@ export default function Menu({
                       </a>
                       {accessibilityMenu && (
                         <div className="accessibility-menu position-absolute">
-                          <div className="d-flex justify-content-around align-items-center">
-                            <label htmlFor="motion">
-                              Disable website motion
-                            </label>
-                            <input
-                              type="checkbox"
-                              id="motion"
-                              checked={motion ? false : true}
-                              onChange={(e) => setMotionState(e.target)}
-                            />
+                          <div className="d-flex flex-column justify-content-around align-items-center">
+                            <div className="mb-3">
+                              <label htmlFor="motion">
+                                Disable website motion
+                              </label>
+                              <input
+                                type="checkbox"
+                                id="motion"
+                                className="ms-3"
+                                checked={motion ? false : true}
+                                onChange={(e) => setState(e.target, setMotion)}
+                              />
+                            </div>
+                            <div>
+                              <label htmlFor="blackWhite">
+                                Black and white mode
+                              </label>
+                              <input
+                                type="checkbox"
+                                id="blackWhite"
+                                className="ms-3"
+                                checked={blackWhite ? false : true}
+                                onChange={(e) =>
+                                  setState(e.target, setBlackWhite)
+                                }
+                              />
+                            </div>
                           </div>
                         </div>
                       )}

@@ -10,11 +10,23 @@ import Skills from "./skills/skills";
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [motion, setMotion] = useState(true);
+  const [blackWhite, setBlackWhite] = useState(true);
 
   return (
     <>
-      <div id="main" className={darkMode ? "dark" : "light"}>
-        <Menu setDarkMode={setDarkMode} setMotion={setMotion} motion={motion} />
+      <div
+        id="main"
+        className={`${darkMode ? "dark" : "light"} ${
+          blackWhite ? "" : "blackWhite"
+        }`}
+      >
+        <Menu
+          setDarkMode={setDarkMode}
+          setMotion={setMotion}
+          motion={motion}
+          blackWhite={blackWhite}
+          setBlackWhite={setBlackWhite}
+        />
         <About darkMode={darkMode} particles={motion} />
         <Experience motion={motion} />
         <Skills />
