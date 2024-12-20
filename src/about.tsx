@@ -25,9 +25,9 @@ export default function About({
                 <span>Hello, my name is</span>
                 <br />
                 <span id="name">Georgios Drivas.</span>
-                <br />{" "}
+                <br />
                 <span id="desc">A highly skilled Frontend Developer.</span>
-                <br />{" "}
+                <br />
               </p>
               <p>
                 With extensive expertise in Web Development, Responsive
