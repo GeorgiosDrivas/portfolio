@@ -1,4 +1,5 @@
 import ExperienceSvg from "./experienceSvg";
+import "./styles/experience.css";
 
 export default function Experience({ motion }: { motion: boolean }) {
   return (

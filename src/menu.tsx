@@ -1,5 +1,6 @@
 import { useState } from "react";
 import OutsideAlerter from "./hooks/useClickOutsideToClose";
+import "./styles/menu.css";
 
 export default function Menu({
   setDarkMode,

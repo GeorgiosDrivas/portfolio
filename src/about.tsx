@@ -1,4 +1,5 @@
 import ParticlesComponent from "./particles";
+import './styles/about.css';
 
 export default function About({
   darkMode,

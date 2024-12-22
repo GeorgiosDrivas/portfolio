@@ -1,0 +1,43 @@
+#experience {
+  padding-top: 50px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+.floating {
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+.dif-floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+.react-floating {
+  animation: react 3s ease-in-out infinite;
+}
+
+.dot {
+  background-color: #cbd5e1;
+  border-radius: 40px;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.company-wrap {
+  border: 1px solid #1e293b;
+  padding: 30px;
+}
+
+.company-wrap h3 {
+  font-weight: 800;
+}
+
+.experience-wrap {
+  height: 500px;
+}

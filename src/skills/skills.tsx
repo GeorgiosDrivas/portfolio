@@ -1,4 +1,5 @@
 import SingleSkill from "./sinlgeSkill";
+import '../styles/skills.css';
 
 export default function Skills() {
   return (

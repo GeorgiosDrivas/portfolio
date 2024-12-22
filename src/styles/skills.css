@@ -1,0 +1,22 @@
+#skills {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-wrap {
+  gap: 2rem;
+}
+
+.singleSkill {
+  background-color: rgb(15, 15, 15);
+  width: auto;
+  border-radius: 5px;
+  gap: 0.75rem;
+}
+
+.singleSkill img {
+  width: auto;
+  height: 40px;
+}

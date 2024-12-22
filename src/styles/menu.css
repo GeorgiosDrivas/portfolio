@@ -1,0 +1,76 @@
+#menu {
+  padding-top: 10px;
+  background-color: rgb(15, 15, 15);
+  position: fixed;
+  width: 100vw;
+  z-index: 9;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.menu-links {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.socials svg {
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+#dot {
+    cursor: pointer;
+}
+
+.socials .gmail {
+    width: 25px;
+    height: 27px;
+}
+
+.accessibility-menu {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(15, 15, 15);
+  left: -156px;
+  top: 48px;
+  font-size: 10px;
+  padding: 20px;
+}
+
+.light .accessibility-menu {
+  color: #fff;
+}
+
+.accessibility-wrap a {
+  cursor: pointer;
+}
+
+.light .dot {
+  background-color: rgb(15, 15, 15);
+}

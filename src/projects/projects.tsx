@@ -1,4 +1,5 @@
 import SingleProject from "./singleProject";
+import '../styles/projects.css';
 
 const codeKeep = ["Angular", "Typescript", "Spring Boot", "PostgreSQL"];
 const linkedin = ["React", "Typescript", "MUI", "Vite"];
