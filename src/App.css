@@ -32,6 +32,7 @@ body {
 
 .light .project-details {
   color: #000000;
+  background-color: #f1f1f1;
 }
 
 .light #avatar img {
