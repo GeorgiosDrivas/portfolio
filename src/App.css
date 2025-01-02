@@ -47,6 +47,12 @@ body {
   background-color: #fff;
 }
 
+.light .more-projects-btn a {
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+
 h2 {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
