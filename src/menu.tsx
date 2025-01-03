@@ -49,27 +49,43 @@ export default function Menu({
             <div className="col-12 p-0">
               <div className="menu">
                 <div className="menu-links">
-                  <a href="#about">About</a>
-                  <a href="#experience">Experience</a>
-                  <a href="#skills">Skills</a>
-                  <a href="#projects">Projects</a>
+                  <a href="#about" title="About Section">
+                    About
+                  </a>
+                  <a href="#experience" title="Experience Section">
+                    Experience
+                  </a>
+                  <a href="#skills" title="Skills Section">
+                    Skills
+                  </a>
+                  <a href="#projects" title="Projects Section">
+                    Projects
+                  </a>
                 </div>
                 <div className="socials d-flex align-items-end justify-content-end">
-                  <a href="mailto:drivasgeorgios0@gmail.com">
+                  <a href="mailto:drivasgeorgios0@gmail.com" title="Email">
                     <EmailSvg />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/drivasgeorgios/"
+                    title="Linkedin Profile"
                     target="_blank"
                   >
                     <LinkedinSvg />
                   </a>
-                  <a href="https://github.com/GeorgiosDrivas" target="_blank">
+                  <a
+                    href="https://github.com/GeorgiosDrivas"
+                    target="_blank"
+                    title="Github Profile"
+                  >
                     <GithubSvg />
                   </a>
                   <div className="position-relative accessibility-wrap">
                     <OutsideAlerter menuState={setAccessibilityMenu}>
-                      <a onClick={AccessibilityMenuState}>
+                      <a
+                        onClick={AccessibilityMenuState}
+                        title="Accessibility Menu"
+                      >
                         <AccessibilityMenuSvg />
                       </a>
                       {accessibilityMenu && (
