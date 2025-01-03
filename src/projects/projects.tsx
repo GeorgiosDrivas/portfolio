@@ -22,7 +22,7 @@ export default function Projects() {
               content="Code snippet saving web app. Create a free account and save your code snippets. Have access easily and any time!"
               githubLink="https://github.com/GeorgiosDrivas/codekeep"
               url="https://codekeep.onrender.com/"
-              image="/codeKeep.png"
+              image="/codeKeep.webp"
               techStack={codeKeep}
             />
             <SingleProject
@@ -30,7 +30,7 @@ export default function Projects() {
               content="A LinkedIn job search clone using Vite, ReactJS, and Material UI."
               githubLink="https://github.com/GeorgiosDrivas/Linkedin-job-search-clone"
               url="https://linkedin-job-search-clone.onrender.com/"
-              image="/linkedin-job-search-clone.png"
+              image="/linkedin-job-search-clone.webp"
               techStack={linkedin}
             />
             <SingleProject
@@ -38,7 +38,7 @@ export default function Projects() {
               content="An online code editor using the Piston API to run and test code in multiple languages."
               githubLink="https://github.com/GeorgiosDrivas/online-code-editor"
               url="https://online-code-editor-bif2.onrender.com/"
-              image="/editor.png"
+              image="/editor.webp"
               techStack={codeEditor}
             />
             <SingleProject
@@ -46,7 +46,7 @@ export default function Projects() {
               content="A text editor built with Vite, ReactJS, Bootstrap 5, and Material UI."
               githubLink="https://github.com/GeorgiosDrivas/text-editor"
               url="https://text-editor-3g9r.onrender.com/"
-              image="/textEditor.png"
+              image="/textEditor.webp"
               techStack={textEditor}
             />
           </div>

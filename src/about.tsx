@@ -1,5 +1,5 @@
 import ParticlesComponent from "./particles";
-import './styles/about.css';
+import "./styles/about.css";
 
 export default function About({
   darkMode,
@@ -15,7 +15,7 @@ export default function About({
         <div className="row mt-5">
           <div className="col-12 d-flex justify-content-center mt-5">
             <div id="avatar">
-              <img src="/profileImage.png" alt="Avatar image" />
+              <img src="/profileImage.webp" alt="Avatar image" />
             </div>
           </div>
         </div>
