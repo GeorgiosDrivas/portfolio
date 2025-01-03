@@ -1,5 +1,5 @@
 import SingleProject from "./singleProject";
-import '../styles/projects.css';
+import "../styles/projects.css";
 
 const codeKeep = ["Angular", "Typescript", "Spring Boot", "PostgreSQL"];
 const linkedin = ["React", "Typescript", "MUI", "Vite"];
@@ -56,6 +56,7 @@ export default function Projects() {
                 <a
                   href="https://github.com/GeorgiosDrivas?tab=repositories"
                   target="_blank"
+                  title="More projects"
                 >
                   More projects
                 </a>
