@@ -22,13 +22,10 @@ export default function About({
         <div className="row justify-content-center align-items-center">
           <div className="col-10">
             <div className="about-content">
-              <p>
+              <p className="about-title">
                 <span>Hello, my name is</span>
-                <br />
                 <span id="name">Georgios Drivas.</span>
-                <br />
                 <span id="desc">A highly skilled Frontend Developer.</span>
-                <br />
               </p>
               <p>
                 With extensive expertise in Web Development, Responsive

@@ -20,7 +20,12 @@ export default function SingleProject({
       <div className="col-12 col-lg-6 mb-4">
         <div className="single-project">
           <div className="project-image">
-            <img className="w-100 h-100" src={image} alt={title} />
+            <img
+              className="w-100 h-100"
+              src={image}
+              alt={title}
+              loading="lazy"
+            />
             <div className="project-links">
               <a href={githubLink} target="_blank" title="Github">
                 <svg

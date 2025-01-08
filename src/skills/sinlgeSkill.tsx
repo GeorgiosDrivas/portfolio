@@ -8,7 +8,7 @@ export default function SingleSkill({
   return (
     <>
       <div className="singleSkill d-flex align-items-center px-4 py-2">
-        <img src={image} alt={title} />
+        <img src={image} alt={title} loading="lazy" />
         {title}
       </div>
     </>
