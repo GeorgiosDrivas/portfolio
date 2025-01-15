@@ -19,11 +19,11 @@ export default function Experience({ motion }: { motion: boolean }) {
               <div className="experience-wrap d-flex flex-column justify-content-around align-items-center">
                 <div className="company-wrap">
                   <h3>Junior Frontend Developer</h3>
-                  <p>
+                  <h4>
                     Ruler Digital Agency
                     <span className="dot"></span>
                     Dec 2022 - Mar 2024
-                  </p>
+                  </h4>
                   <p>
                     Convert designs into custom WordPress websites. Maintain
                     existing websites using WordPress and Joomla. Provide
@@ -32,11 +32,11 @@ export default function Experience({ motion }: { motion: boolean }) {
                 </div>
                 <div className="company-wrap">
                   <h3>Frontend Developer Intern</h3>
-                  <p>
+                  <h4>
                     Ruler Digital Agency
                     <span className="dot"></span>
                     Jul 2022 - Dec 2022
-                  </p>
+                  </h4>
                   <p>
                     Practice with popular CMS such as WordPress and Joomla.
                     Create custom WordPress themes with PHP, JavaScript,
