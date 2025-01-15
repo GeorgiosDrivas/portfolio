@@ -84,15 +84,15 @@ export default function About({
         <div className="row justify-content-center align-items-center">
           <div className="col-10">
             <div className="about-content" style={styles.aboutContent}>
-              <p className="about-title">
+              <p className="about-title mb-0">
                 <span style={styles.aboutTitleSpan}>Hello, my name is</span>
                 <span id="name" style={styles.name}>
                   Georgios Drivas.
                 </span>
-                <span id="desc" style={styles.desc}>
-                  A highly skilled Frontend Developer.
-                </span>
               </p>
+              <h1 id="desc" style={styles.desc}>
+                A highly skilled Frontend Developer.
+              </h1>
               <p style={styles.aboutContentParagraph}>
                 With extensive expertise in Web Development, Responsive
                 <br />
