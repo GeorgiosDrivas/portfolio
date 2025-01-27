@@ -4,7 +4,7 @@ import "../styles/projects.css";
 const codeKeep = ["Angular", "Typescript", "Spring Boot", "PostgreSQL"];
 const linkedin = ["React", "Typescript", "MUI", "Vite"];
 const codeEditor = ["React", "Typescript", "Tailwind", "API"];
-const textEditor = ["React", "Typescript", "Bootstrap", "MaterialUI"];
+const DocsOfficial = ["Javascript", "Typescript", "Git"];
 
 export default function Projects() {
   return (
@@ -42,12 +42,12 @@ export default function Projects() {
               techStack={codeEditor}
             />
             <SingleProject
-              title="Text Editor"
-              content="A text editor built with Vite, ReactJS, Bootstrap 5, and Material UI."
-              githubLink="https://github.com/GeorgiosDrivas/text-editor"
+              title="VsCode Docs Official"
+              content="VSCode extension that provides access to official documentation of the currently opened file's language."
+              githubLink="https://github.com/GeorgiosDrivas/vscode-docs-official"
               url="https://text-editor-3g9r.onrender.com/"
-              image="/textEditor.webp"
-              techStack={textEditor}
+              image="/docsOfficial.webp"
+              techStack={DocsOfficial}
             />
           </div>
           <div className="row">
