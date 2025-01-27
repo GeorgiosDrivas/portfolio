@@ -45,7 +45,7 @@ export default function Projects() {
               title="VsCode Docs Official"
               content="VSCode extension that provides access to official documentation of the currently opened file's language."
               githubLink="https://github.com/GeorgiosDrivas/vscode-docs-official"
-              url="https://text-editor-3g9r.onrender.com/"
+              url="https://marketplace.visualstudio.com/items?itemName=GeorgiosDrivas.docs-official"
               image="/docsOfficial.webp"
               techStack={DocsOfficial}
             />
