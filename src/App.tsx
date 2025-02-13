@@ -4,7 +4,7 @@ import "./App.css";
 import Experience from "./experience";
 import Menu from "./menu";
 const Projects = lazy(() => import("./projects/projects"));
-import Skills from "./skills/skills";
+const Skills = lazy(() => import("./skills/skills"));
 import "./responsive.css";
 
 function App() {
