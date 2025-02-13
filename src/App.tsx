@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { lazy, useState } from "react";
 import About from "./about";
 import "./App.css";
 import Experience from "./experience";
 import Menu from "./menu";
-import Projects from "./projects/projects";
+const Projects = lazy(() => import("./projects/projects"));
 import Skills from "./skills/skills";
 import "./responsive.css";
 
