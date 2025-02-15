@@ -29,8 +29,8 @@ export default function Menu({
     setDarkMode((prv: boolean) => !prv);
   };
 
-  const setState = (ts: any, setFn: any) => {
-    if (ts.checked) {
+  const setState = (ts: React.ChangeEvent<HTMLInputElement>, setFn: any) => {
+    if (ts.target.checked) {
       setFn(false);
     } else {
       setFn(true);
@@ -100,7 +100,7 @@ export default function Menu({
                                 id="motion"
                                 className="ms-3"
                                 checked={motion ? false : true}
-                                onChange={(e) => setState(e.target, setMotion)}
+                                onChange={(e) => setState(e, setMotion)}
                               />
                             </div>
                             <div>
@@ -112,9 +112,7 @@ export default function Menu({
                                 id="blackWhite"
                                 className="ms-3"
                                 checked={blackWhite ? false : true}
-                                onChange={(e) =>
-                                  setState(e.target, setBlackWhite)
-                                }
+                                onChange={(e) => setState(e, setBlackWhite)}
                               />
                             </div>
                           </div>
