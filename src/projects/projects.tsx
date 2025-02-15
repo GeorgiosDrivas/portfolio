@@ -1,10 +1,11 @@
 import SingleProject from "./singleProject";
 import "../styles/projects.css";
-
-const codeKeep = ["Angular", "Typescript", "Spring Boot", "PostgreSQL"];
-const linkedin = ["React", "Typescript", "MUI", "Vite"];
-const codeEditor = ["React", "Typescript", "Tailwind", "API"];
-const DocsOfficial = ["Javascript", "Typescript", "Git"];
+import {
+  codeEditor,
+  codeKeep,
+  DocsOfficial,
+  linkedin,
+} from "../constants/projectsConstants";
 
 export default function Projects() {
   return (
