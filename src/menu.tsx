@@ -15,11 +15,11 @@ export default function Menu({
   blackWhite,
   setBlackWhite,
 }: {
-  setDarkMode: any;
-  setMotion: any;
+  setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
+  setMotion: React.Dispatch<React.SetStateAction<boolean>>;
   motion: boolean;
   blackWhite: boolean;
-  setBlackWhite: any;
+  setBlackWhite: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   const [active, setActive] = useState(false);
   const [accessibilityMenu, setAccessibilityMenu] = useState(false);
