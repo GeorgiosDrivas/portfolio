@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint src",
-    "preview": "vite preview"
+    "lint": "eslint src"
   },
   "dependencies": {
     "@tsparticles/engine": "^3.7.1",
