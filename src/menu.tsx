@@ -37,10 +37,6 @@ export default function Menu({
     }
   };
 
-  const AccessibilityMenuState = () => {
-    setAccessibilityMenu((prv: boolean) => !prv);
-  };
-
   return (
     <>
       <section id="menu">
@@ -83,7 +79,9 @@ export default function Menu({
                   <div className="position-relative accessibility-wrap">
                     <OutsideAlerter menuState={setAccessibilityMenu}>
                       <a
-                        onClick={AccessibilityMenuState}
+                        onClick={() =>
+                          setAccessibilityMenu((prv: boolean) => !prv)
+                        }
                         title="Accessibility Menu"
                       >
                         <AccessibilityMenuSvg />
