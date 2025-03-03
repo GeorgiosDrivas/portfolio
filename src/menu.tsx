@@ -29,7 +29,10 @@ export default function Menu({
     setDarkMode((prv: boolean) => !prv);
   };
 
-  const setState = (ts: React.ChangeEvent<HTMLInputElement>, setFn: any) => {
+  const setState = (
+    ts: React.ChangeEvent<HTMLInputElement>,
+    setFn: React.Dispatch<React.SetStateAction<boolean>>
+  ) => {
     if (ts.target.checked) {
       setFn(false);
     } else {
