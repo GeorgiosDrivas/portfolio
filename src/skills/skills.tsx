@@ -1,5 +1,5 @@
 import SingleSkill from "./sinlgeSkill";
-import '../styles/skills.css';
+import "../styles/skills.css";
 
 export default function Skills() {
   return (
@@ -64,6 +64,10 @@ export default function Skills() {
                 <SingleSkill
                   image="/skillsIcons/wordpress.svg"
                   title="Wordpress"
+                />
+                <SingleSkill
+                  image="/skillsIcons/react_native.svg"
+                  title="React Native"
                 />
               </div>
             </div>
