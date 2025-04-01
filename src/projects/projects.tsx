@@ -2,7 +2,7 @@ import SingleProject from "./singleProject";
 import "../styles/projects.css";
 import {
   codeEditor,
-  codeKeep,
+  doctor,
   DocsOfficial,
   linkedin,
 } from "../constants/projectsConstants";
@@ -19,12 +19,11 @@ export default function Projects() {
           </div>
           <div className="row">
             <SingleProject
-              title="CodeKeep"
-              content="Code snippet saving web app. Create a free account and save your code snippets. Have access easily and any time!"
-              githubLink="https://github.com/GeorgiosDrivas/codekeep"
-              url="https://codekeep.onrender.com/"
-              image="/codeKeep.webp"
-              techStack={codeKeep}
+              title="Doctor Client Website"
+              content="A client website for a doctor using PHP, Javscript, and Wordpress."
+              url="https://iatreio-gkika.gr/"
+              image="/screen.webp"
+              techStack={doctor}
             />
             <SingleProject
               title="Linkedin job-search Clone"

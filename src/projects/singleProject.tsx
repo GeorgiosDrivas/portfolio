@@ -5,7 +5,7 @@ interface Props {
   title: string;
   content: string;
   image: string;
-  githubLink: string;
+  githubLink?: string;
   url: string;
   techStack: string[];
 }
@@ -30,9 +30,11 @@ export default function SingleProject({
               loading="lazy"
             />
             <div className="project-links">
-              <a href={githubLink} target="_blank" title="Github">
-                <ProjectGithubSvg />
-              </a>
+              {githubLink && (
+                <a href={githubLink} target="_blank" title="Github">
+                  <ProjectGithubSvg />
+                </a>
+              )}
               <a href={url} target="_blank" title="Live">
                 <ProjectUrlSvg />
               </a>
