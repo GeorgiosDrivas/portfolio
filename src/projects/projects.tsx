@@ -19,7 +19,7 @@ export default function Projects() {
           </div>
           <div className="row">
             <SingleProject
-              title="Website development for Iatreio Gkika"
+              title="Website Development for Iatreio Gkika"
               content="A client website for Iatreio Gkika using PHP, Javscript, and Wordpress."
               url="https://iatreio-gkika.gr/"
               image="/screen.webp"
