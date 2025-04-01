@@ -3,6 +3,7 @@ import "../styles/projects.css";
 import {
   codeEditor,
   DocsOfficial,
+  doctor,
   linkedin,
 } from "../constants/projectsConstants";
 
@@ -17,13 +18,13 @@ export default function Projects() {
             </div>
           </div>
           <div className="row">
-{/*             <SingleProject
-              title="Doctor Client Website"
-              content="A client website for a doctor using PHP, Javscript, and Wordpress."
+            <SingleProject
+              title="Website development for Iatreio Gkika"
+              content="A client website for Iatreio Gkika using PHP, Javscript, and Wordpress."
               url="https://iatreio-gkika.gr/"
               image="/screen.webp"
               techStack={doctor}
-            /> */}
+            />
             <SingleProject
               title="Linkedin job-search Clone"
               content="A LinkedIn job search clone using Vite, ReactJS, and Material UI."

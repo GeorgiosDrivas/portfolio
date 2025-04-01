@@ -1,4 +1,4 @@
-export const doctor = ["Javascript", "Wordpress", "PHP"];
-export const linkedin = ["React", "Typescript", "MUI", "Vite"];
-export const codeEditor = ["React", "Typescript", "Tailwind", "API"];
-export const DocsOfficial = ["Javascript", "Typescript", "Git"];
+export const doctor = ["JavaScript", "WordPress", "PHP"];
+export const linkedin = ["React", "TypeScript", "MUI", "Vite"];
+export const codeEditor = ["React", "TypeScript", "Tailwind", "API"];
+export const DocsOfficial = ["JavaScript", "TypeScript", "Git"];
