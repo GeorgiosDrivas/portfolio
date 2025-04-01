@@ -2,7 +2,6 @@ import SingleProject from "./singleProject";
 import "../styles/projects.css";
 import {
   codeEditor,
-  doctor,
   DocsOfficial,
   linkedin,
 } from "../constants/projectsConstants";
