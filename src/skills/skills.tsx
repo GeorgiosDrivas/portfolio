@@ -24,7 +24,7 @@ export default function Skills() {
                 <SingleSkill image="/skillsIcons/html.svg" title="HTML" />
                 <SingleSkill
                   image="/skillsIcons/javascript.svg"
-                  title="Javascript"
+                  title="JavaScript"
                 />
               </div>
             </div>
@@ -43,7 +43,7 @@ export default function Skills() {
             </div>
             <div className="col-12">
               <div className="mt-3 skills-wrap d-flex flex-wrap justify-content-center">
-                <SingleSkill image="/skillsIcons/react.svg" title="React" />
+                <SingleSkill image="/skillsIcons/react.svg" title="ReactJs" />
                 <SingleSkill image="/skillsIcons/redux.svg" title="Redux" />
                 <SingleSkill
                   image="/skillsIcons/springBoot.svg"
@@ -51,11 +51,11 @@ export default function Skills() {
                 />
                 <SingleSkill
                   image="/skillsIcons/tailwind.svg"
-                  title="Tailwind"
+                  title="Tailwind CSS"
                 />
                 <SingleSkill
                   image="/skillsIcons/typescript.svg"
-                  title="Typescript"
+                  title="TypeScript"
                 />
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function Skills() {
               <div className="mt-3 skills-wrap d-flex flex-wrap justify-content-center">
                 <SingleSkill
                   image="/skillsIcons/wordpress.svg"
-                  title="Wordpress"
+                  title="WordPress"
                 />
                 <SingleSkill
                   image="/skillsIcons/react_native.svg"
