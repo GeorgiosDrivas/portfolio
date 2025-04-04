@@ -14,7 +14,6 @@ export default function Skills() {
           <div className="row">
             <div className="col-12">
               <div className="skills-wrap d-flex flex-wrap justify-content-center">
-                <SingleSkill image="/skillsIcons/angular.svg" title="Angular" />
                 <SingleSkill
                   image="/skillsIcons/bootstrap.svg"
                   title="Bootstrap"
