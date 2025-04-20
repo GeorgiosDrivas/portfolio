@@ -25,9 +25,11 @@ export default function Experience({ motion }: { motion: boolean }) {
                     Dec 2022 - Mar 2024
                   </h4>
                   <p>
-                    Convert designs into custom WordPress websites. Maintain
-                    existing websites using WordPress and Joomla. Provide
-                    customer support.
+                    ▪Translated design mockups into fully functional, custom
+                    WordPress websites.
+                    <br /> ▪ Maintained and optimized existing websites built
+                    with WordPress and Joomla. <br />▪ Provided technical
+                    support and troubleshooting for clients.
                   </p>
                 </div>
                 <div className="company-wrap">
@@ -38,9 +40,10 @@ export default function Experience({ motion }: { motion: boolean }) {
                     Jul 2022 - Dec 2022
                   </h4>
                   <p>
-                    Practice with popular CMS such as WordPress and Joomla.
-                    Create custom WordPress themes with PHP, JavaScript,
-                    Bootstrap, and SCSS.
+                    ▪ Gained hands-on experience with popular CMS platforms,
+                    including WordPress and Joomla.
+                    <br />▪ Developed custom WordPress themes using PHP,
+                    Javascript, JQuery, Bootstrap and SCSS.
                   </p>
                 </div>
               </div>
