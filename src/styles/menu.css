@@ -69,3 +69,13 @@
 .light .dot {
   background-color: rgb(15, 15, 15);
 }
+
+.light #menu {
+  background-color: #fff;
+  color: rgb(15, 15, 15);
+}
+
+.light .menu a {
+  color: rgb(15, 15, 15);
+  stroke: rgb(15, 15, 15);
+}
