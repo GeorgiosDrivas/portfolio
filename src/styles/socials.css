@@ -1,0 +1,18 @@
+.socials-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#socials svg {
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+#socials .gmail {
+  width: 25px;
+  height: 27px;
+}

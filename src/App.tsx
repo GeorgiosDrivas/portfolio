@@ -6,6 +6,7 @@ import Menu from "./menu";
 const Projects = lazy(() => import("./projects/projects"));
 const Skills = lazy(() => import("./skills/skills"));
 import "./responsive.css";
+import Socials from "./Socials";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -31,6 +32,7 @@ function App() {
         <Experience motion={motion} />
         <Skills />
         <Projects />
+        <Socials />
       </div>
     </>
   );

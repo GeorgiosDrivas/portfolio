@@ -1,9 +1,6 @@
 import { useState } from "react";
 import OutsideAlerter from "./hooks/useClickOutsideToClose";
 import "./styles/menu.css";
-import EmailSvg from "./assets/emailSvg";
-import LinkedinSvg from "./assets/linkedinSvg";
-import GithubSvg from "./assets/githubSvg";
 import AccessibilityMenuSvg from "./assets/accessibilityMenu";
 import LightModeSvg from "./assets/lightModesvg";
 import DarkModeSvg from "./assets/darkModeSvg";
@@ -62,23 +59,6 @@ export default function Menu({
                   </a>
                 </div>
                 <div className="socials d-flex align-items-end justify-content-end">
-                  <a href="mailto:drivasgeorgios0@gmail.com" title="Email">
-                    <EmailSvg />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/drivasgeorgios/"
-                    title="Linkedin Profile"
-                    target="_blank"
-                  >
-                    <LinkedinSvg />
-                  </a>
-                  <a
-                    href="https://github.com/GeorgiosDrivas"
-                    target="_blank"
-                    title="Github Profile"
-                  >
-                    <GithubSvg />
-                  </a>
                   <div className="position-relative accessibility-wrap">
                     <OutsideAlerter menuState={setAccessibilityMenu}>
                       <a
