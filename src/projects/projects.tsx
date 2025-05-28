@@ -2,7 +2,7 @@ import SingleProject from "./singleProject";
 import "../styles/projects.css";
 import {
   codeEditor,
-  DocsOfficial,
+  PetDiary,
   doctor,
   linkedin,
 } from "../constants/projectsConstants";
@@ -42,12 +42,12 @@ export default function Projects() {
               techStack={codeEditor}
             />
             <SingleProject
-              title="VsCode Docs Official"
-              content="VSCode extension that provides access to official documentation of the currently opened file's language."
-              githubLink="https://github.com/GeorgiosDrivas/vscode-docs-official"
-              url="https://marketplace.visualstudio.com/items?itemName=GeorgiosDrivas.docs-official"
-              image="/docsOfficial.webp"
-              techStack={DocsOfficial}
+              title="Pet Diary"
+              content="A full stack web app to track your pet's medication and appointments easier than ever."
+              githubLink="https://github.com/GeorgiosDrivas/pet-diary"
+              url="https://pet-diary-f0bn.onrender.com/"
+              image="/petDiary.webp"
+              techStack={PetDiary}
             />
           </div>
           <div className="row">
