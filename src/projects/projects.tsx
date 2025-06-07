@@ -4,7 +4,7 @@ import {
   codeEditor,
   PetDiary,
   doctor,
-  linkedin,
+  shutterShop,
 } from "../constants/projectsConstants";
 
 export default function Projects() {
@@ -26,12 +26,12 @@ export default function Projects() {
               techStack={doctor}
             />
             <SingleProject
-              title="Linkedin job-search Clone"
-              content="A LinkedIn job search clone using Vite, ReactJS, and Material UI."
-              githubLink="https://github.com/GeorgiosDrivas/Linkedin-job-search-clone"
-              url="https://linkedin-job-search-clone.onrender.com/"
-              image="/linkedin-job-search-clone.webp"
-              techStack={linkedin}
+              title="Shutter Shop: Design-to-Code"
+              content="React website to showcase design-to-code skills, featuring a fully responsive layout and interactive elements."
+              githubLink="https://github.com/GeorgiosDrivas/shutter-shop"
+              url="https://shutter-shop.onrender.com/"
+              image="/shutter-shop.webp"
+              techStack={shutterShop}
             />
             <SingleProject
               title="Online Code Editor"

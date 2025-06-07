@@ -1,5 +1,5 @@
 export const doctor = ["JavaScript", "WordPress", "PHP"];
-export const linkedin = ["React", "TypeScript", "MUI", "Vite"];
+export const shutterShop = ["React", "TypeScript", "Bootstrap", "Vite"];
 export const codeEditor = ["React", "TypeScript", "Tailwind", "API"];
 export const PetDiary = [
   "React",
