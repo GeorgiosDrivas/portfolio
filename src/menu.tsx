@@ -4,6 +4,7 @@ import "./styles/menu.css";
 import AccessibilityMenuSvg from "./assets/accessibilityMenu";
 import LightModeSvg from "./assets/lightModesvg";
 import DarkModeSvg from "./assets/darkModeSvg";
+import CvSvg from "./assets/CvSvg";
 
 export default function Menu({
   setDarkMode,
@@ -59,6 +60,9 @@ export default function Menu({
                   </a>
                 </div>
                 <div className="socials d-flex align-items-end justify-content-end">
+                  <a href="../public/cv.pdf" download="Georgios DrivasCV">
+                    <CvSvg />
+                  </a>
                   <div className="position-relative accessibility-wrap">
                     <OutsideAlerter menuState={setAccessibilityMenu}>
                       <a
