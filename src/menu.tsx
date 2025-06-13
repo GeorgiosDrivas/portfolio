@@ -60,7 +60,11 @@ export default function Menu({
                   </a>
                 </div>
                 <div className="socials d-flex align-items-end justify-content-end">
-                  <a href="../public/cv.pdf" download="Georgios DrivasCV">
+                  <a
+                    href="../public/cv.pdf"
+                    download="Georgios DrivasCV"
+                    title="Download CV"
+                  >
                     <CvSvg />
                   </a>
                   <div className="position-relative accessibility-wrap">
