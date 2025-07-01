@@ -8,6 +8,6 @@ This is my portfolio website where I showcase my skills and projects.
 - Bootstrap
 
 # Metrics
-These are the results of the website's tests
+These are the results of the website's Lighthouse tests
 
-![newMetrics](https://github.com/user-attachments/assets/83ec7258-e676-41cf-88e0-06698cb056c2)
+![lighthouse](https://github.com/user-attachments/assets/e38a2fff-0b7c-42b0-a682-fc9f994dcff9)
