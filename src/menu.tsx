@@ -69,14 +69,15 @@ export default function Menu({
                   </a>
                   <div className="position-relative accessibility-wrap">
                     <OutsideAlerter menuState={setAccessibilityMenu}>
-                      <a
+                      <button
+                        className="accessibility-button"
                         onClick={() =>
                           setAccessibilityMenu((prv: boolean) => !prv)
                         }
                         title="Accessibility Menu"
                       >
                         <AccessibilityMenuSvg />
-                      </a>
+                      </button>
                       {accessibilityMenu && (
                         <div className="accessibility-menu position-absolute">
                           <div className="d-flex flex-column justify-content-around align-items-center">

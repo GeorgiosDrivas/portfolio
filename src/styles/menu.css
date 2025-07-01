@@ -74,7 +74,15 @@
   color: rgb(15, 15, 15);
 }
 
-.light .menu a {
+.light .menu a,
+.light .menu button {
   color: rgb(15, 15, 15);
   stroke: rgb(15, 15, 15);
+}
+
+.accessibility-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
