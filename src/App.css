@@ -65,6 +65,18 @@ h2 {
   text-align: center;
 }
 
+@media screen and (max-width: 772px){
+  #name{
+    font-size: 36px;
+  }
+  #desc{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+
 @keyframes react {
   0% {
     transform: matrix(
