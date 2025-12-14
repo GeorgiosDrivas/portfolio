@@ -20,8 +20,8 @@ export default function SingleProject({
 }: Props) {
   return (
     <>
-      <div className="col-12 col-lg-6 mb-4">
-        <div className="single-project">
+      <div className="col-12 col-lg-4 mb-4">
+        <div className="single-project h-100">
           <div className="project-image">
             <img
               className="w-100 h-100"

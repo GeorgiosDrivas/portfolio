@@ -1,11 +1,6 @@
 import SingleProject from "./singleProject";
 import "../styles/projects.css";
-import {
-  codeEditor,
-  PetDiary,
-  doctor,
-  shutterShop,
-} from "../constants/projectsConstants";
+import { codeEditor, PetDiary, doctor } from "../constants/projectsConstants";
 
 export default function Projects() {
   return (
@@ -19,19 +14,11 @@ export default function Projects() {
           </div>
           <div className="row">
             <SingleProject
-              title="Website Development for Iatreio Gkika"
+              title="Iatreio Gkika"
               content="Website for Iatreio Gkika using PHP, JavaScript, and WordPress."
               url="https://iatreio-gkika.gr/"
               image="/screen.webp"
               techStack={doctor}
-            />
-            <SingleProject
-              title="Shutter Shop: Design-to-Code"
-              content="React website to showcase design-to-code skills, featuring a fully responsive layout and interactive elements."
-              githubLink="https://github.com/GeorgiosDrivas/shutter-shop"
-              url="https://shutter-shop.onrender.com/"
-              image="/shutter-shop.webp"
-              techStack={shutterShop}
             />
             <SingleProject
               title="Online Code Editor"
