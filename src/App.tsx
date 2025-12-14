@@ -30,7 +30,7 @@ function App() {
         />
         <About darkMode={darkMode} particles={motion} />
         <Experience motion={motion} />
-        <Skills />
+        <Skills darkMode={darkMode} />
         <Projects />
         <Socials />
       </div>

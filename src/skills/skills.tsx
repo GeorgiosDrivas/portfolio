@@ -1,7 +1,7 @@
 import SingleSkill from "./sinlgeSkill";
 import "../styles/skills.css";
 
-export default function Skills() {
+export default function Skills({ darkMode }: { darkMode: boolean }) {
   return (
     <>
       <section id="skills">
@@ -32,6 +32,14 @@ export default function Skills() {
                 <SingleSkill image="/skillsIcons/jest.svg" title="Jest" />
                 <SingleSkill image="/skillsIcons/jquery.svg" title="JQuery" />
                 <SingleSkill image="/skillsIcons/node.svg" title="NodeJs" />
+                <SingleSkill
+                  image={
+                    !darkMode
+                      ? "/skillsIcons/next.svg"
+                      : "/skillsIcons/next-white.svg"
+                  }
+                  title="Next.Js"
+                />
                 <SingleSkill
                   image="/skillsIcons/postgresql.svg"
                   title="PostgreSQL"
