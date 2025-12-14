@@ -25,11 +25,8 @@ export default function Experience({ motion }: { motion: boolean }) {
                     Oct 2025 - Present
                   </h4>
                   <p>
-                    ▪Translated design mockups into fully functional, custom
-                    WordPress websites.
-                    <br /> ▪ Maintained and optimized existing websites built
-                    with WordPress and Joomla. <br />▪ Provided technical
-                    support and troubleshooting for clients.
+                    ▪ Built scalable web applications using React, Next.js,
+                    TailwindCSS and Prisma ORM.
                   </p>
                 </div>
                 <div className="company-wrap">
