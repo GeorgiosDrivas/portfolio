@@ -41,10 +41,6 @@ export default function Skills() {
             <div className="col-12">
               <div className="mt-3 skills-wrap d-flex flex-wrap justify-content-center">
                 <SingleSkill image="/skillsIcons/react.svg" title="ReactJs" />
-                <SingleSkill
-                  image="/skillsIcons/react_native.svg"
-                  title="React Native"
-                />
                 <SingleSkill image="/skillsIcons/redux.svg" title="Redux" />
                 <SingleSkill
                   image="/skillsIcons/tailwind.svg"
