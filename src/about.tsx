@@ -53,7 +53,6 @@ export default function About({
       fontSize: "20px",
     },
     aboutTitleSpan: {
-      display: "block",
       marginBottom: "3px",
     },
     name: {
@@ -61,7 +60,7 @@ export default function About({
       fontWeight: "1000",
     },
     desc: {
-      fontSize: "40px",
+      fontSize: "30px",
       fontWeight: "1000",
     },
   };
@@ -85,18 +84,19 @@ export default function About({
           <div className="col-10">
             <div className="about-content" style={styles.aboutContent}>
               <p className="about-title mb-0">
-                <span style={styles.aboutTitleSpan}>Hello, my name is</span>
+                <span style={styles.aboutTitleSpan}>Hello, I'm </span>
                 <span id="name" style={styles.name}>
-                  Georgios Drivas.
+                  Georgios Drivas,
                 </span>
               </p>
               <h1 id="desc" style={styles.desc}>
-                A highly skilled Frontend Developer.
+                a Full Stack Software Engineer.
               </h1>
               <p style={styles.aboutContentParagraph}>
-                With extensive expertise in Web Development, Responsive
+                With extensive expertise in
                 <br />
-                Design, Support and Maintenance of websites / web apps.
+                building efficient, user-friendly solutions that drive business
+                success.
               </p>
             </div>
           </div>
