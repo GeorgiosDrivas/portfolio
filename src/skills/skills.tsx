@@ -44,6 +44,14 @@ export default function Skills({ darkMode }: { darkMode: boolean }) {
                   image="/skillsIcons/postgresql.svg"
                   title="PostgreSQL"
                 />
+                <SingleSkill
+                  image={
+                    !darkMode
+                      ? "/skillsIcons/prisma.svg"
+                      : "/skillsIcons/prisma-white.svg"
+                  }
+                  title="Prisma ORM"
+                />
               </div>
             </div>
             <div className="col-12">
