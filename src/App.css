@@ -65,20 +65,16 @@ h2 {
   text-align: center;
 }
 
-@media screen and (max-width: 772px){
-  #name{
+@media screen and (max-width: 772px) {
+  #name {
     font-size: 36px;
   }
-  #desc{
+  #desc {
     font-size: 26px;
     text-align: center;
     margin-bottom: 30px;
   }
-  #skills h2{
-  margin-top: 250px;
-  }
 }
-
 
 @keyframes react {
   0% {

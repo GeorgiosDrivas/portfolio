@@ -18,6 +18,21 @@ export default function Experience({ motion }: { motion: boolean }) {
             <div className="col-12 col-lg-6">
               <div className="experience-wrap d-flex flex-column justify-content-around align-items-center">
                 <div className="company-wrap">
+                  <h3>Full Stack Software Egnineer</h3>
+                  <h4>
+                    Wizy Agency
+                    <span className="dot"></span>
+                    Oct 2025 - Present
+                  </h4>
+                  <p>
+                    ▪Translated design mockups into fully functional, custom
+                    WordPress websites.
+                    <br /> ▪ Maintained and optimized existing websites built
+                    with WordPress and Joomla. <br />▪ Provided technical
+                    support and troubleshooting for clients.
+                  </p>
+                </div>
+                <div className="company-wrap">
                   <h3>Junior Frontend Developer</h3>
                   <h4>
                     Ruler Digital Agency

@@ -31,7 +31,7 @@
 
 .company-wrap {
   border: 1px solid #1e293b;
-  padding: 30px;
+  padding: 15px;
   width: 100%;
 }
 
@@ -41,8 +41,18 @@
 
 .experience-wrap {
   height: 500px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #1e293b transparent;
 }
 
 .company-wrap h4 {
   font-size: 1.2em;
+}
+
+@media (max-width: 992px) {
+  .experience-wrap {
+    height: auto;
+    overflow-y: unset;
+  }
 }
