@@ -28,14 +28,6 @@ export default function Projects() {
               image="/editor.webp"
               techStack={codeEditor}
             />
-            <SingleProject
-              title="Pet Diary"
-              content="A full stack web app to track your pet's medication and appointments easier than ever."
-              githubLink="https://github.com/GeorgiosDrivas/pet-diary"
-              url="https://pet-diary-f0bn.onrender.com/"
-              image="/petDiary.webp"
-              techStack={PetDiary}
-            />
           </div>
           <div className="row">
             <div className="col-12">
