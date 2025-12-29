@@ -1,6 +1,6 @@
 import SingleProject from "./singleProject";
 import "../styles/projects.css";
-import { codeEditor, PetDiary, doctor } from "../constants/projectsConstants";
+import { codeEditor, doctor } from "../constants/projectsConstants";
 
 export default function Projects() {
   return (
